@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Noto;
+    src: url(../fonts/Noto_Sans/NotoSans-Regular.ttf);
+  }
+  :root{
+      --Grid-width:200px;
+  }
+.H-100Vmin{
+    height: 100vmin;
+}
+.MH-100Vmin{
+    min-height: 100vmin;
+}
+.H-90Vmin{
+    height: 90vmin;
+}
+.H-80Vmin{
+    height: 80vmin;
+}
+.H-70Vmin{
+    height: 70vmin;
+}
+.H-60Vmin{
+    height: 60vmin;
+}
+.H-50Vmin{
+    height: 50vmin;
+}
+.H-40Vmin{
+    height: 50vmin;
+}
+.H-30Vmin{
+    height: 50vmin;
+}
+.H-20Vmin{
+    height: 50vmin;
+}
+.H-10Vmin{
+    height: 50vmin;
+}
+.Bg-Gradiant-Blue{
+    background: linear-gradient(90deg,#50c7f1,#038ed5);
+}
+.Text-Gradiant-Blue{
+    background: linear-gradient(90deg,#50c7f1,#038ed5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+*{
+    font-family: Noto;
+}
+.Logo{
+    background-image:url(../Icons/Logo.png) ;
+}
+.Grid-W-200{
+    --Grid-width:200px;
+}
+.Grid-W-250{
+    --Grid-width:250px;
+}
+.Grid-W-300{
+    --Grid-width:300px;
+}
+.Grid-W-350{
+    --Grid-width:350px;
+}
+.grid-auto-cols{
+    grid-template-columns: repeat(auto-fit,var(--Grid-width));    
+}
+.hover-Darken:hover{
+background-color: rgba(0, 0, 0, 0.100);
+}
+.active-Darken:active{
+    background-color: rgba(0, 0, 0, 0.200);
+    }
+    .Bg-White-Trans-30{
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    .Bg-White-Trans-40{
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+    .Bg-White-Trans-50{
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .Bg-White-Trans-60{
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+    .Bg-White-Trans-70{
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    .Bg-White-Trans-80{
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+ 
+    .bg-gradiant-blue-Cliped-down{
+       
+        background: linear-gradient(194deg,#50c7f1,#038ed5 65%, white 63%)
+    }
+  

@@ -1,0 +1,11 @@
+.player-icon{
+    background-image: url(../Icons/player.svg);
+}
+.MinWidth-80{
+    min-width: 37%;
+    width: min-content;
+}
+.W-500{
+    width: 500px;
+   
+}
