@@ -39,17 +39,22 @@
     height: 50vmin;
 }
 .Bg-Gradiant-Blue{
-    background: linear-gradient(90deg,#50c7f1,#038ed5);
+    background: linear-gradient(90deg,#91daff,#bae2fb);
 }
 .Text-Gradiant-Blue{
-    background: linear-gradient(90deg,#50c7f1,#038ed5);
+    background: linear-gradient(90deg,#91daff,#bae2fb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 *{
     font-family: Noto;
 }
+.bright1_2{
+    filter: brightness(1.2);
+}
 .Logo{
+    
     background-image:url(../Icons/Logo.png) ;
 }
 .Grid-W-200{

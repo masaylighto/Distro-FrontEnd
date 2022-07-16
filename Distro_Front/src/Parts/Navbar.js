@@ -34,12 +34,23 @@ class CNavbar extends React.Component{
     {
         return <CTransparentButton key={Index} onClick={(()=>this.JumpToPage(Link)).bind()} Text={Text}/>
     }
+    ToggleMenu(Event)
+    {
+        let Menu = Event.target.parentElement.children[1]
+        this.state.IsOpen=!this.state.IsOpen
+        this.setState(this.state)
+    }
     render()
     {
-       return (<div className='w-full Bg-Gradiant-Blue flex justify-center'>
-       <div className="w-5/6  Bg-White-Trans-30 flex md:flex-row flex-col bg-white  rounded-2xl mt-4 mx-auto justify-between px-4">{
+       return (<div className='w-full Bg-Gradiant-Blue flex md:justify-start justify-center'>
+       <div className="w-3/6 flex md:flex-row flex-col items-center   gap-3 px-4">
+       <div onClick={(Event)=>this.ToggleMenu(Event)} className='Logo w-8 h-8 bg-no-repeat bg-contain my-auto'></div>
+       <div className={'w-full overflow-hidden md:h-fit  flex md:flex-row flex-col items-center   gap-3 px-4 '+(this.state.IsOpen===true?'':'h-0')}>
+        {
            this.state.Buttons
-       }</div>
+        }
+        </div>
+       </div>
        </div>
        )
     }
